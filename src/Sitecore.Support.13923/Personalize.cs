@@ -1,25 +1,12 @@
-﻿using Sitecore;
-using Sitecore.Data;
+﻿using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
-using Sitecore.Extensions.XElementExtensions;
-using Sitecore.Layouts;
-using Sitecore.Shell.Applications.Dialogs.Personalize;
-using Sitecore.Shell.Applications.WebEdit.Commands;
 using Sitecore.Shell.Framework.Commands;
 using Sitecore.Web;
 using Sitecore.Web.UI.Sheer;
 using System;
 using System.Collections.Specialized;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
 using Sitecore.Collections;
-using Sitecore.Data.Fields;
-using Sitecore.Data.Managers;
-using Sitecore.Text;
-using Sitecore.Web.UI.HtmlControls;
-using System.Collections.Generic;
 using Sitecore.Globalization;
 
 namespace Sitecore.Support.Shell.Applications.WebEdit.Commands
