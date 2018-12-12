@@ -26,7 +26,7 @@ namespace Sitecore.Support.Shell.Applications.WebEdit.Commands
           return;
         }
         // Patch 
-        if ((item.TemplateName == "Page" || item.TemplateName == "Home") && item.Fields["Page Design"] != null)
+        if (item.Fields["Page Design"] != null)
         {
           string tempForm = WebUtil.GetFormValue("scLayout");
           string tempUid = ShortID.Decode(context.Parameters["uniqueId"]);
